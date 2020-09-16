@@ -8,6 +8,10 @@ steve = Student.new
 steve.first_name = "Steve"
 steve.last_name = "Jobs"
 
+lily = Student.new
+lily.first_name = "Lily"
+lily.last_name = "Potter"
+
 avi = Teacher.new
 avi.first_name = "Avi"
 avi.last_name = "Flombaum"
@@ -19,7 +23,7 @@ jim.last_name = "Green"
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-
-steve.learn(Java)
+lily.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Lily just learn how to poop"
