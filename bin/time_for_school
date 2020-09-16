@@ -21,10 +21,9 @@ jim.first_name = "Jim"
 jim.last_name = "Green"
 
 some_knowledge = avi.teach
-other_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-lily.learn(other_knowledge)
+lily.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "Lily just learned this important knowledge: '#{lily.knowledge.first}' from Avi""
